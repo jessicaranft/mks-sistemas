@@ -4,7 +4,7 @@ import { Header } from '@/components/header'
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
 import { api } from './api/api'
-import { CardList, Container, SkeletonCard } from './styles'
+import { CardList, Container, SkeletonCard } from '@/styles/pages/styles'
 
 interface HomeProps {
   products: Product[]
